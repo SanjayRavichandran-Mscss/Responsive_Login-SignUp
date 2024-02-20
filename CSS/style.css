@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../IMAGES/treeS.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    /* overflow:hidden; */
+}
+label{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:10px;
+}
+
+h2{
+    text-align:center;
+ margin:5px;
+ color:white;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+    margin-top:1-px;
+    gap:10px;
+    text-align:left;    
+   padding:15px;
+}
+
+form input{
+    width:70%;
+    height:15px;
+    background:transparent;
+    color:white;
+    font-size:15px;
+    
+    border:none;
+    outline:none;
+    border-bottom:2px solid white;
+
+
+}
+
+.btn{
+    display:flex;
+    justify-content:left;
+    margin-top:10px
+
+  
+}
+button{
+height:25px;
+width: 60px;
+margin:5px;
+border-radius:5px;
+border:none;
+
+text-shadow:1px 1px 2px green;
+color:white;
+font-size:10px;
+padding:5px;
+background-color:darkmagenta;
+
+}
+
+a{
+    margin-top:7px;
+    text-decoration:none;
+    gap:5px;
+    padding:5px;
+    color:white;
+    font-size:14px;
+    font-family:cursive;
+    
+}
+
+a:hover{
+color:orange;
+}
+
+
+@media(min-width:768px){
+
+    body{
+        background-image: url(../IMAGES/tree.jpeg);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+    }
+
+    form input{
+        width:40%;
+        height:25px;
+    }
+
+    a{
+        margin-top:10px;
+        text-decoration:none;
+        gap:5px;
+        padding:5px;
+        color:white;
+        font-size:15px;
+        font-weight:400;
+        
+    }
+    a:hover{
+        color:orange;
+        }
+    
+    button{
+        height:30px;
+        width: 70px;
+    }
+
+    label{
+        color:white;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:15px;
+    }
+
+   
+}
